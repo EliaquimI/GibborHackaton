@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Hackaton/Gibbor/app -name *.kt -type f)"
+    ]
+  }
+}

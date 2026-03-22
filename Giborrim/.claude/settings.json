@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(stellar contract:*)",
+      "Bash(node -e \"const sdk = require\\(''@stellar/stellar-sdk''\\); console.log\\(Object.keys\\(sdk\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''rpc''\\) || k.toLowerCase\\(\\).includes\\(''soroban''\\)\\)\\)\")",
+      "Bash(node -e \"const {rpc} = require\\(''@stellar/stellar-sdk''\\); console.log\\(Object.keys\\(rpc\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''assemble''\\) || k.toLowerCase\\(\\).includes\\(''server''\\) || k.toLowerCase\\(\\).includes\\(''simulation''\\)\\)\\)\")"
+    ]
+  }
+}

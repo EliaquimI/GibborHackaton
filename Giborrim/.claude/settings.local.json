@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Giborrim -type f -name *.kt -o -name *.js -o -name *.json -o -name *.gradle -o -name *.kts -o -name *.rs -o -name *.toml)",
+      "Bash(xargs wc:*)",
+      "Bash(npm install:*)",
+      "Bash(grep -E \"\\(\\\\.kt$|build\\\\.gradle|AndroidManifest\\)\")",
+      "Bash(find C:/Giborrim/GIBBOR-Backend/src -type f -name *.js)",
+      "WebFetch(domain:docs.crossmint.com)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:blog.crossmint.com)",
+      "Bash(find C:Giborrim -not -path */target/* -not -path */.git/* -not -path */node_modules/* -not -path */.claude/* -type d)",
+      "Bash(netsh advfirewall:*)",
+      "Bash(cargo build:*)",
+      "Bash(cargo test:*)",
+      "Bash(rustup target:*)"
+    ]
+  }
+}
