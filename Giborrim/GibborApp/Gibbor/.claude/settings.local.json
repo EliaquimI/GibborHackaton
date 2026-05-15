@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find /c/Hackaton/Gibbor/app -name *.kt -type f)"
+      "Bash(find /c/Hackaton/Gibbor/app -name *.kt -type f)",
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)"
     ]
   }
 }

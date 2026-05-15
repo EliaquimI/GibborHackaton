@@ -30,7 +30,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Gibbor">
         <service
-            android:name=".RecordingService"
+            android:name=".infrastructure.service.RecordingService"
             android:foregroundServiceType="camera|microphone"
             android:exported="false" />
 
